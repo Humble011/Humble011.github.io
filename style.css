@@ -56,7 +56,7 @@
     background: radial-gradient(#fdcf3b 50%, #d88a40 85%);
     color: #c66e16;
     text-transform: uppercase;
-    font-size: 1.8em;
+    font-size: 4vw; /* Menggunakan viewport units (vw) untuk menyesuaikan dengan ukuran elemen */
     letter-spacing: 0.1em;
     font-weight: 600;
   }
@@ -94,7 +94,7 @@
       right: -3%; /* Sesuaikan dengan kebutuhan */
     }
     #spin-btn {
-      font-size: 1.2em; /* Sesuaikan dengan kebutuhan */
+      font-size: 3vw; /* Sesuaikan dengan kebutuhan */
     }
   }
   
