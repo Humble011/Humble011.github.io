@@ -54,7 +54,7 @@ let myChart = new Chart(wheel, {
       datalabels: {
         color: "#ffffff",
         formatter: (_, context) => context.chart.data.labels[context.dataIndex],
-        font: { size: isMobile ? 15 : 24 },
+        font: { size: isMobile ? 18 : 24 },
       },
     },
   },
