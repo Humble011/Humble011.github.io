@@ -23,6 +23,7 @@ var pieColors = [
   "#b163da",
 ];
 //Create chart
+let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 let myChart = new Chart(wheel, {
   //Plugin for displaying text on pie chart
   plugins: [ChartDataLabels],
@@ -53,7 +54,7 @@ let myChart = new Chart(wheel, {
       datalabels: {
         color: "#ffffff",
         formatter: (_, context) => context.chart.data.labels[context.dataIndex],
-        font: { size: 24 },
+        font: { size: isMobile ? 15 : 24 },
       },
     },
   },
