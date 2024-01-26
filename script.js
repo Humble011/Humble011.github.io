@@ -64,10 +64,10 @@ const valueGenerator = (angleValue) => {
   for (let i of rotationValues) {
     //if the angleValue is between min and max then display it
     if (angleValue >= i.minDegree && angleValue <= i.maxDegree) {
-      finalValue.innerHTML = `<p>Selamat kamu mendapatkan uang Rp ${i.value},-</p>`;
-      spinBtn.disabled = false;
-      break;
-    }
+        finalValue.innerHTML = `<p class="prize-message">Selamat kamu mendapatkan uang <span class="prize-amount">Rp ${i.value},-</span></p>`;
+        spinBtn.disabled = false;
+        break;
+      }
   }
 };
 

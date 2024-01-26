@@ -73,4 +73,13 @@
     img {
       right: -5%;
     }
+    .prize-message {
+        flex-direction: row;
+      }
   }
+  .prize-message {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
