@@ -63,13 +63,18 @@ let myChart = new Chart(wheel, {
 const valueGenerator = (angleValue) => {
   for (let i of rotationValues) {
     //if the angleValue is between min and max then display it
+    let isMobile = window.innerWidth <= 768;
+
     if (angleValue >= i.minDegree && angleValue <= i.maxDegree) {
-        finalValue.innerHTML = `<p class="prize-message">Selamat kamu mendapatkan uang <span class="prize-amount">Rp ${i.value},-</span></p>`;
-        spinBtn.disabled = false;
-        break;
+      let message = isMobile ? 
+        `Selamat kamu mendapatkan uang<br>Rp ${i.value},-` : 
+        `Selamat kamu mendapatkan uang Rp ${i.value},-`;
+      finalValue.innerHTML = `<p>${message}</p>`;
+      spinBtn.disabled = false;
+      break;
+    }
       }
-  }
-};
+  };
 
 //Spinner count
 let count = 0;
