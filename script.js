@@ -4,7 +4,7 @@ const finalValue = document.getElementById("final-value");
 
 const rotationValues = [
   { minDegree: 0, maxDegree: 30, value: 50000 },
-  { minDegree: 31, maxDegree: 90, value: 30000 },
+  { minDegree: 31, maxDegree: 90, value: 40000 },
   { minDegree: 91, maxDegree: 150, value: 100000 },
   { minDegree: 151, maxDegree: 210, value: 80000 },
   { minDegree: 211, maxDegree: 270, value: 70000 },
@@ -27,7 +27,7 @@ let myChart = new Chart(wheel, {
   plugins: [ChartDataLabels],
   type: "pie",
   data: {
-    labels: [30000, 50000, 60000, 70000, 80000, 100000],
+    labels: [40000, 50000, 60000, 70000, 80000, 100000],
     datasets: [
       {
         backgroundColor: pieColors,
