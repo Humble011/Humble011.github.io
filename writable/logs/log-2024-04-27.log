@@ -1,0 +1,313 @@
+CRITICAL - 2024-04-27 17:24:49 --> Creation of dynamic property App\Controllers\Transaksi::$transaksiModel is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Transaksi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(801): App\Controllers\Transaksi->__construct()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 17:24:50 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\tokoku\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\tokoku\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\tokoku\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-04-27 17:27:56 --> Creation of dynamic property App\Controllers\Transaksi::$transaksiModel is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Transaksi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(801): App\Controllers\Transaksi->__construct()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 17:27:56 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\tokoku\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\tokoku\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\tokoku\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-04-27 17:28:01 --> Creation of dynamic property App\Controllers\Transaksi::$transaksiModel is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Transaksi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(801): App\Controllers\Transaksi->__construct()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 17:28:01 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\tokoku\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\tokoku\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\tokoku\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-04-27 17:32:12 --> Creation of dynamic property App\Controllers\Transaksi::$transaksiModel is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Transaksi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(801): App\Controllers\Transaksi->__construct()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 17:32:12 --> syntax error, unexpected variable "$method"
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-04-27 17:32:39 --> Creation of dynamic property App\Controllers\Transaksi::$transaksiModel is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Transaksi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(801): App\Controllers\Transaksi->__construct()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 17:32:39 --> syntax error, unexpected variable "$method"
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-04-27 17:32:41 --> Creation of dynamic property App\Controllers\Transaksi::$transaksiModel is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Transaksi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(801): App\Controllers\Transaksi->__construct()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 17:32:41 --> syntax error, unexpected variable "$method"
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-04-27 17:36:47 --> Creation of dynamic property App\Controllers\Transaksi::$transaksiModel is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Transaksi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(801): App\Controllers\Transaksi->__construct()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 17:39:20 --> Too few arguments to function App\Controllers\Transaksi::__construct(), 0 passed in C:\xampp\htdocs\tokoku\system\CodeIgniter.php on line 801 and exactly 2 expected
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(801): App\Controllers\Transaksi->__construct()
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-04-27 17:39:39 --> Creation of dynamic property App\Controllers\Transaksi::$transaksiModel is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Transaksi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(801): App\Controllers\Transaksi->__construct()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 17:44:04 --> syntax error, unexpected token ";", expecting variable
+#0 C:\xampp\htdocs\tokoku\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\tokoku\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-27 17:44:05 --> syntax error, unexpected token ";", expecting variable
+#0 C:\xampp\htdocs\tokoku\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\tokoku\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-27 17:45:20 --> Creation of dynamic property App\Controllers\Transaksi::$session is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\BaseController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 17:47:04 --> Creation of dynamic property App\Controllers\Transaksi::$session is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\BaseController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 17:48:52 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format()...', 'C:\\xampp\\htdocs...', 934)
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(934): number_format(NULL, 6)
+#2 C:\xampp\htdocs\tokoku\system\Debug\Toolbar\Collectors\Database.php(111): CodeIgniter\Database\BaseConnection->getConnectDuration()
+#3 C:\xampp\htdocs\tokoku\system\Debug\Toolbar\Collectors\BaseCollector.php(115): CodeIgniter\Debug\Toolbar\Collectors\Database->formatTimelineData()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Toolbar\Collectors\BaseCollector.php(231): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->timelineData()
+#5 C:\xampp\htdocs\tokoku\system\Debug\Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#6 C:\xampp\htdocs\tokoku\system\Debug\Toolbar.php(363): CodeIgniter\Debug\Toolbar->run(1714258132.003, 0.2643, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#7 C:\xampp\htdocs\tokoku\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#8 C:\xampp\htdocs\tokoku\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#9 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('/', 'after')
+#10 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-04-27 17:51:24 --> Creation of dynamic property App\Controllers\Transaksi::$transaksiModel is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Transaksi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(801): App\Controllers\Transaksi->__construct()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 17:55:30 --> syntax error, unexpected token "public", expecting ";" or "{"
+#0 C:\xampp\htdocs\tokoku\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\tokoku\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-27 17:55:56 --> Creation of dynamic property App\Controllers\Transaksi::$transaksiModel is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Transaksi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(801): App\Controllers\Transaksi->__construct()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 17:57:23 --> Creation of dynamic property App\Controllers\Transaksi::$session is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\BaseController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 17:59:18 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format()...', 'C:\\xampp\\htdocs...', 934)
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(934): number_format(NULL, 6)
+#2 C:\xampp\htdocs\tokoku\system\Debug\Toolbar\Collectors\Database.php(111): CodeIgniter\Database\BaseConnection->getConnectDuration()
+#3 C:\xampp\htdocs\tokoku\system\Debug\Toolbar\Collectors\BaseCollector.php(115): CodeIgniter\Debug\Toolbar\Collectors\Database->formatTimelineData()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Toolbar\Collectors\BaseCollector.php(231): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->timelineData()
+#5 C:\xampp\htdocs\tokoku\system\Debug\Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#6 C:\xampp\htdocs\tokoku\system\Debug\Toolbar.php(363): CodeIgniter\Debug\Toolbar->run(1714258758.7161, 0.1691, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#7 C:\xampp\htdocs\tokoku\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#8 C:\xampp\htdocs\tokoku\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#9 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('/', 'after')
+#10 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-04-27 17:59:20 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format()...', 'C:\\xampp\\htdocs...', 934)
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(934): number_format(NULL, 6)
+#2 C:\xampp\htdocs\tokoku\system\Debug\Toolbar\Collectors\Database.php(111): CodeIgniter\Database\BaseConnection->getConnectDuration()
+#3 C:\xampp\htdocs\tokoku\system\Debug\Toolbar\Collectors\BaseCollector.php(115): CodeIgniter\Debug\Toolbar\Collectors\Database->formatTimelineData()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Toolbar\Collectors\BaseCollector.php(231): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->timelineData()
+#5 C:\xampp\htdocs\tokoku\system\Debug\Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#6 C:\xampp\htdocs\tokoku\system\Debug\Toolbar.php(363): CodeIgniter\Debug\Toolbar->run(1714258760.3592, 0.0905, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#7 C:\xampp\htdocs\tokoku\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#8 C:\xampp\htdocs\tokoku\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#9 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('/', 'after')
+#10 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-04-27 18:07:45 --> Creation of dynamic property App\Controllers\Transaksi::$transaksiModel is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Transaksi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(801): App\Controllers\Transaksi->__construct()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 18:07:45 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\tokoku\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\tokoku\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\tokoku\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-04-27 18:19:47 --> Creation of dynamic property App\Controllers\Transaksi::$transaksiModel is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Transaksi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(801): App\Controllers\Transaksi->__construct()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 18:19:48 --> Uncaught ErrorException: filter_var(): Passing null to parameter #3 ($options) of type array|int is deprecated in C:\xampp\htdocs\tokoku\system\Validation\FormatRules.php:267
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'filter_var(): P...', 'C:\\xampp\\htdocs...', 267)
+#1 C:\xampp\htdocs\tokoku\system\Validation\FormatRules.php(267): filter_var('::1', 275, NULL)
+#2 C:\xampp\htdocs\tokoku\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\tokoku\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\tokoku\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-04-27 18:21:32 --> Creation of dynamic property App\Controllers\Transaksi::$transaksiModel is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\Transaksi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(801): App\Controllers\Transaksi->__construct()
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 18:22:47 --> Creation of dynamic property App\Controllers\Transaksi::$session is deprecated
+#0 C:\xampp\htdocs\tokoku\app\Controllers\BaseController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-04-27 18:23:39 --> number_format(): Passing null to parameter #1 ($num) of type float is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'number_format()...', 'C:\\xampp\\htdocs...', 934)
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(934): number_format(NULL, 6)
+#2 C:\xampp\htdocs\tokoku\system\Debug\Toolbar\Collectors\Database.php(111): CodeIgniter\Database\BaseConnection->getConnectDuration()
+#3 C:\xampp\htdocs\tokoku\system\Debug\Toolbar\Collectors\BaseCollector.php(115): CodeIgniter\Debug\Toolbar\Collectors\Database->formatTimelineData()
+#4 C:\xampp\htdocs\tokoku\system\Debug\Toolbar\Collectors\BaseCollector.php(231): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->timelineData()
+#5 C:\xampp\htdocs\tokoku\system\Debug\Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#6 C:\xampp\htdocs\tokoku\system\Debug\Toolbar.php(363): CodeIgniter\Debug\Toolbar->run(1714260218.8355, 0.3835, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#7 C:\xampp\htdocs\tokoku\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#8 C:\xampp\htdocs\tokoku\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#9 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(427): CodeIgniter\Filters\Filters->run('/', 'after')
+#10 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-04-27 23:17:41 --> Error connecting to the database: Unknown database 'tokoku'
+CRITICAL - 2024-04-27 23:17:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'tokoku'
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 C:\xampp\htdocs\tokoku\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(19): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-04-27 23:18:35 --> Error connecting to the database: Unknown database 'tokoku'
+CRITICAL - 2024-04-27 23:18:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'tokoku'
+#0 C:\xampp\htdocs\tokoku\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoku\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 C:\xampp\htdocs\tokoku\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoku\system\BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 C:\xampp\htdocs\tokoku\app\Controllers\Login.php(19): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\xampp\htdocs\tokoku\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

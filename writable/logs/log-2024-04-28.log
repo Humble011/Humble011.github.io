@@ -1,0 +1,6 @@
+CRITICAL - 2024-04-28 04:15:25 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\xampp\htdocs\tokoku\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\tokoku\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\tokoku\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
