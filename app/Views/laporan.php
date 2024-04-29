@@ -74,7 +74,7 @@
             var totalKeuntungan = 0;
             var pemasukan = 0;
             var totalPemasukan = 0;
-            var tabel = '<table id="add-row" class="display table table-striped table-hover" ><thead><tr><th>NO</th><th>ID</th><th>TANGGAL</th><th>NAMA</th><th>NETTO</th><th>KULAK</th><th>HARGA</th><th>JUMLAH</th><th>TOTAL</th><th>UNTUNG</th><th>KASIR</th></tr></thead><tbody>'
+            var tabel = '<table id="add-row" class="display table table-striped table-hover" ><thead><tr><th>NO</th><th>ID</th><th>TANGGAL</th><th>NAMA</th><th>NETTO</th><th>BELI</th><th>HARGA</th><th>JUMLAH</th><th>TOTAL</th><th>UNTUNG</th><th>KASIR</th></tr></thead><tbody>'
             $.ajax({
                 url: '<?= base_url() ?>/laporan/dataPenjualan',
                 method: 'post',

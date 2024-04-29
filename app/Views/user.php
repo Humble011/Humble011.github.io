@@ -38,7 +38,9 @@
                                 } else {
                                     echo "Karyawan";
                                 } ?></td>
-                            <td><a href="#" class="badge badge-danger p-2" id="hapus<?= $user[$i]['id'] ?>" onClick="tryHapus(<?= $user[$i]['id'] ?>, '<?= $user[$i]['nama'] ?>')"><i class="fas fa-trash"></i></a></td>
+                            <td>
+                                <a href="#" class="badge badge-danger p-2" id="hapus<?= $user[$i]['id'] ?>" onClick="tryHapus(<?= $user[$i]['id'] ?>, '<?= $user[$i]['nama'] ?>')"><i class="fas fa-trash"></i></a>
+                            </td>
                         </tr>
                     <?php $j++;
                     endfor; ?>
